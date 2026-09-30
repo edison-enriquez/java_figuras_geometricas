@@ -13,5 +13,6 @@ public abstract class Figura implements Dibujable{
 
     public String getNombre(){
         return nombre;
+        
     }
 }
