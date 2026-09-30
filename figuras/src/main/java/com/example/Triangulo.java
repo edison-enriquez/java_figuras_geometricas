@@ -1,12 +1,12 @@
-import com.example.Figura;
-
+package com.example;
 public class Triangulo extends Figura{
 
     double base, altura;
 
-    public Triangulo(String nombre){
-        super(nombre);
-
+    public Triangulo(double base, double altura){
+        super("Triangulo");
+        this.base =  base;
+        this.altura = altura;
     }
 
     @Override 

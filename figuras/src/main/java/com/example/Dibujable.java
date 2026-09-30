@@ -1,6 +1,6 @@
 package com.example;
 
-public interface Dibujar {
+public interface Dibujable {
     void dibujar();
 
     default void dibujarBordes(){

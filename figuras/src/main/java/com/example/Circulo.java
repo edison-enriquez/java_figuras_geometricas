@@ -1,11 +1,10 @@
-import com.example.Figura;
-
-public class Circulo extends Figura{
+package com.example;
+class Circulo extends Figura{
 
     double radio;
 
-    public Circulo(String nombre, double radio) {
-        super(nombre);
+    public Circulo( double radio) {
+        super("Circulo");
         this.radio = radio;
     }
 

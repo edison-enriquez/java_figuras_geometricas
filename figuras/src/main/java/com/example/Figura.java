@@ -1,6 +1,6 @@
 package com.example;
 
-public abstract class Figura implements Dibujar{
+public abstract class Figura implements Dibujable{
     protected String nombre;
 
     public Figura (String nombre){
@@ -11,7 +11,7 @@ public abstract class Figura implements Dibujar{
 
     public abstract double calcularPerimetro();
 
-    public void getNombre(){
-        System.out.println(nombre);
+    public String getNombre(){
+        return nombre;
     }
 }
